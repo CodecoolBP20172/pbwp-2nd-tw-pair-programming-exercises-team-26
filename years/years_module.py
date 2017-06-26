@@ -2,11 +2,15 @@ import datetime
 
 
 def years(age):
-    return
+    years = 2017 + (99 - age)
+    return years
 
 
 def main():
-    return
+    years(25)
+    return years
+
+main()
 
 
 if __name__ == '__main__':
